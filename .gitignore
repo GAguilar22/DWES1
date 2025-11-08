@@ -1,0 +1,98 @@
+# ===========================================
+# DWES - Desarrollo Web en Entorno Servidor
+# .gitignore principal
+# ===========================================
+
+# Archivos ZIP (material comprimido)
+*.zip
+*.rar
+*.7z
+
+# Archivos del sistema XAMPP
+applications.html
+bitnami.css
+
+# ===========================================
+# Laravel - Configuración para todos los proyectos
+# ===========================================
+
+# Dependencias
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de entorno
+.env
+.env.backup
+.env.production
+
+# Archivos de bloqueo de dependencias
+composer.lock
+package-lock.json
+
+# Cache y logs
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+bootstrap/cache/*.php
+
+# Resultados de pruebas
+.phpunit.result.cache
+/coverage/
+
+# Configuración de desarrollo local
+Homestead.json
+Homestead.yaml
+.vagrant/
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================================
+# Sistema operativo
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===========================================
+# Archivos temporales PHP
+# ===========================================
+*.tmp
+*.temp
+*.log
+
+# Archivos de backup
+*.bak
+*.backup
+
+# ===========================================
+# Específico del proyecto DWES
+# ===========================================
+
+# Archivos de prueba temporal
+test.php
+temp.php
+debug.php
+
+# Archivos de configuración personal
+config_local.php
+settings_local.php
